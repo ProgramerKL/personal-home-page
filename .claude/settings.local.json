@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ct-devmcp__do_dis",
+      "mcp__ct-devmcp__do_ide",
+      "Read(/C:\\#Cloud\\Dropbox\\Dropbox\\KyleDropboxShare\\KyleCode\\KyleCoding\\V5_2025/**)",
+      "Bash(copy:*)",
+      "mcp__ct-devmcp__do_pla",
+      "mcp__ct-devmcp__do_bld",
+      "Bash(git add:*)",
+      "Bash(git rm:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\#Cloud\\Dropbox\\Dropbox\\KyleDropboxShare\\KyleCode\\KyleCoding\\V5_2025"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "context7",
+    "ct-devmcp"
+  ]
+}
