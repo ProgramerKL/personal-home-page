@@ -1,0 +1,90 @@
+version: "1.0.0"
+generatedBy: "edp-6-mcp"
+timestamp: "2025-01-26T12:00:00Z"
+originalIntent: "Create a personal homepage based on PRD.md with enhanced portfolio project management functionality, including ability to add/edit/delete projects with more space for future portfolio expansion"
+scope:
+  allowedPaths:
+    - "index.html"
+    - "styles.css"
+    - "script.js"
+    - "ide_gallery_enhanced.html"
+  forbiddenPaths:
+    - "docs/"
+    - ".git/"
+    - "README.md"
+  newFiles:
+    - "index.html"
+    - "styles.css" 
+    - "script.js"
+apiContracts:
+  - name: "setTheme"
+    type: "function"
+    params:
+      - name: "theme"
+        type: "string"
+    returns: "void"
+    required: true
+  - name: "saveProject"
+    type: "function"
+    params:
+      - name: "project"
+        type: "object"
+    returns: "boolean"
+    required: true
+  - name: "loadProjects"
+    type: "function"
+    params: []
+    returns: "array"
+    required: true
+  - name: "updateVibe"
+    type: "function"
+    params:
+      - name: "emoji"
+        type: "string"
+      - name: "text"
+        type: "string"
+    returns: "void"
+    required: true
+acceptanceCriteria:
+  - id: "AC-001"
+    description: "Profile section with editable name, bio, and profile picture upload"
+    given: "User loads the homepage"
+    when: "User clicks on name or bio fields"
+    then: "Fields become editable and changes persist on blur"
+  - id: "AC-002"
+    description: "Theme switching between 4 themes (light, dark, pastel, neon)"
+    given: "Homepage is loaded"
+    when: "User clicks theme button"
+    then: "Theme changes immediately and persists across sessions"
+  - id: "AC-003"
+    description: "Vibe indicator with emoji and status update functionality"
+    given: "Homepage is loaded"
+    when: "User clicks vibe indicator"
+    then: "Modal opens with emoji picker and text input"
+  - id: "AC-004"
+    description: "Portfolio project management with add/edit/delete functionality"
+    given: "Portfolio section is visible"
+    when: "User clicks add project button"
+    then: "Modal opens with form for project details"
+  - id: "AC-005"
+    description: "Responsive design works on mobile and desktop"
+    given: "Homepage loads on any device"
+    when: "Screen size changes"
+    then: "Layout adapts appropriately without breaking"
+  - id: "AC-006"
+    description: "Data persistence using localStorage"
+    given: "User makes changes to profile or projects"
+    when: "Page is refreshed or revisited"
+    then: "All changes are preserved"
+nonGoals:
+  - "Backend API integration"
+  - "User authentication system"
+  - "Advanced analytics or tracking"
+  - "Blog or CMS functionality"
+  - "Social media integration beyond display"
+  - "SEO optimization beyond basic meta tags"
+complexityBudget:
+  maxNewFunctions: 15
+  maxNewFiles: 3
+  maxLinesOfCode: 1500
+  maxDependencies: 0
