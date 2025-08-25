@@ -8,7 +8,8 @@
       "mcp__ct-devmcp__do_pla",
       "mcp__ct-devmcp__do_bld",
       "Bash(git add:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(git commit:*)"
     ],
     "additionalDirectories": [
       "C:\\#Cloud\\Dropbox\\Dropbox\\KyleDropboxShare\\KyleCode\\KyleCoding\\V5_2025"
