@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Floating Background Emojis -->
+    <div class="emoji-background">
+        <span class="floating-emoji" style="left: 5%; animation-delay: 0s;">💻</span>
+        <span class="floating-emoji" style="left: 85%; animation-delay: 1s;">🚀</span>
+        <span class="floating-emoji" style="left: 10%; animation-delay: 2s;">🎨</span>
+        <span class="floating-emoji" style="left: 90%; animation-delay: 0.5s;">⚡</span>
+        <span class="floating-emoji" style="left: 15%; animation-delay: 1.5s;">🌟</span>
+        <span class="floating-emoji" style="left: 80%; animation-delay: 2.5s;">🔥</span>
+        <span class="floating-emoji" style="left: 70%; animation-delay: 3s;">💡</span>
+        <span class="floating-emoji" style="left: 25%; animation-delay: 0.8s;">✨</span>
+        <span class="floating-emoji" style="left: 95%; animation-delay: 1.8s;">🎯</span>
+        <span class="floating-emoji" style="left: 5%; animation-delay: 2.2s;">🌈</span>
+        <span class="floating-emoji" style="left: 50%; animation-delay: 1.2s;">🤖</span>
+        <span class="floating-emoji" style="left: 3%; animation-delay: 2.8s;">⚙️</span>
+        <span class="floating-emoji" style="left: 40%; animation-delay: 0.3s;">📊</span>
+        <span class="floating-emoji" style="left: 60%; animation-delay: 1.7s;">🏗️</span>
+        <span class="floating-emoji" style="left: 75%; animation-delay: 2.1s;">🔧</span>
+        <span class="floating-emoji" style="left: 20%; animation-delay: 0.9s;">📱</span>
+        <span class="floating-emoji" style="left: 95%; animation-delay: 3.2s;">💫</span>
+        <span class="floating-emoji" style="left: 55%; animation-delay: 1.4s;">🎮</span>
+        <span class="floating-emoji" style="left: 30%; animation-delay: 2.6s;">🏆</span>
+        <span class="floating-emoji" style="left: 35%; animation-delay: 0.7s;">🎪</span>
+        <span class="floating-emoji" style="left: 25%; animation-delay: 1.9s;">🎸</span>
+        <span class="floating-emoji" style="left: 75%; animation-delay: 2.4s;">🌙</span>
+        <span class="floating-emoji" style="left: 8%; animation-delay: 3.5s;">🎭</span>
+        <span class="floating-emoji" style="left: 45%; animation-delay: 1.1s;">🎲</span>
+        <span class="floating-emoji" style="left: 88%; animation-delay: 0.4s;">🎈</span>
+        
+        <!-- Additional emojis for continuous flow -->
+        <span class="floating-emoji" style="left: 12%; animation-delay: 4s;">🎼</span>
+        <span class="floating-emoji" style="left: 78%; animation-delay: 4.5s;">🎨</span>
+        <span class="floating-emoji" style="left: 33%; animation-delay: 5s;">🌊</span>
+        <span class="floating-emoji" style="left: 67%; animation-delay: 5.5s;">🌸</span>
+        <span class="floating-emoji" style="left: 22%; animation-delay: 6s;">🎪</span>
+        <span class="floating-emoji" style="left: 82%; animation-delay: 6.5s;">🦋</span>
+        <span class="floating-emoji" style="left: 18%; animation-delay: 7s;">🎀</span>
+        <span class="floating-emoji" style="left: 58%; animation-delay: 7.5s;">🌺</span>
+        <span class="floating-emoji" style="left: 38%; animation-delay: 8s;">🎊</span>
+        <span class="floating-emoji" style="left: 72%; animation-delay: 8.5s;">🌻</span>
+        <span class="floating-emoji" style="left: 28%; animation-delay: 9s;">🎭</span>
+        <span class="floating-emoji" style="left: 92%; animation-delay: 9.5s;">🌷</span>
+        <span class="floating-emoji" style="left: 8%; animation-delay: 10s;">🎯</span>
+        <span class="floating-emoji" style="left: 48%; animation-delay: 10.5s;">🌿</span>
+        <span class="floating-emoji" style="left: 68%; animation-delay: 11s;">🎶</span>
+        <span class="floating-emoji" style="left: 13%; animation-delay: 11.5s;">🍀</span>
+        <span class="floating-emoji" style="left: 83%; animation-delay: 12s;">🎵</span>
+        <span class="floating-emoji" style="left: 43%; animation-delay: 12.5s;">🌼</span>
+        <span class="floating-emoji" style="left: 73%; animation-delay: 13s;">🎤</span>
+        <span class="floating-emoji" style="left: 23%; animation-delay: 13.5s;">🌹</span>
+        <span class="floating-emoji" style="left: 53%; animation-delay: 14s;">🎧</span>
+        <span class="floating-emoji" style="left: 93%; animation-delay: 14.5s;">🌴</span>
+        <span class="floating-emoji" style="left: 63%; animation-delay: 15s;">🎸</span>
+        <span class="floating-emoji" style="left: 17%; animation-delay: 15.5s;">🌲</span>
+    </div>
+
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">🎨 Portfolio</a>
+            <div class="theme-controls">
+                <button class="theme-btn active" onclick="setTheme('light')" style="background: linear-gradient(135deg, #fff, #f0f0f0)"></button>
+                <button class="theme-btn" onclick="setTheme('dark')" style="background: linear-gradient(135deg, #333, #000)"></button>
+                <button class="theme-btn" onclick="setTheme('pastel')" style="background: linear-gradient(135deg, #ffc3a0, #ffafbd)"></button>
+                <button class="theme-btn" onclick="setTheme('neon')" style="background: linear-gradient(135deg, #f093fb, #f5576c)"></button>
+                <button class="theme-btn" onclick="setTheme('sunset')" style="background: linear-gradient(135deg, #ff6b6b, #ffa726)"></button>
+                <button class="theme-btn" onclick="setTheme('ocean')" style="background: linear-gradient(135deg, #42a5f5, #26c6da)"></button>
+                <button class="theme-btn" onclick="setTheme('forest')" style="background: linear-gradient(135deg, #66bb6a, #81c784)"></button>
+                <button class="theme-btn" onclick="setTheme('purple')" style="background: linear-gradient(135deg, #ab47bc, #ba68c8)"></button>
+                <button class="theme-btn" onclick="setTheme('midnight')" style="background: linear-gradient(135deg, #1a237e, #283593)"></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="hero-section">
+            <!-- Profile Sidebar -->
+            <div class="profile-card">
+                <div class="profile-avatar">
+                    <div class="avatar" id="avatar">
+                        <span id="avatarEmoji">👨‍🎨</span>
+                        <img id="avatarImg" style="display: none;" alt="Profile">
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                    <h1 class="profile-name">Kyle Liu</h1>
+                    <p class="profile-role">Creative Developer</p>
+                    <p class="profile-bio">
+                        Passionate about crafting beautiful digital experiences through thoughtful design and clean code.
+                    </p>
+                    
+                    <div class="vibe-status">
+                        <span id="vibeEmoji">🎯</span>
+                        <span id="vibeText">In the zone</span>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">💼</a>
+                        <a href="#" class="social-link">🐙</a>
+                        <a href="#" class="social-link">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="content-area">
+                <!-- Portfolio Section -->
+                <section id="portfolio">
+                    <div class="section-header">
+                        <h2 class="section-title">Featured Work</h2>
+                        <p class="section-subtitle">A collection of projects I'm proud to have worked on</p>
+                    </div>
+
+                    <div class="portfolio-gallery" id="portfolioGallery">
+                        <!-- Projects will be dynamically generated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
