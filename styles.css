@@ -146,9 +146,9 @@ body {
 
 .floating-emoji {
     position: absolute;
-    font-size: 2rem;
+    font-size: 2.5rem;
     opacity: 0;
-    animation: floatUp 20s linear infinite;
+    animation: floatUp 18s linear infinite;
     pointer-events: none;
     user-select: none;
     bottom: -50px;
@@ -191,35 +191,35 @@ body {
 
 /* Theme-specific opacity overrides during animation */
 [data-theme="dark"] .floating-emoji {
-    animation: floatUpDark 20s linear infinite;
+    animation: floatUpDark 18s linear infinite;
 }
 
 [data-theme="neon"] .floating-emoji {
-    animation: floatUpNeon 20s linear infinite;
+    animation: floatUpNeon 18s linear infinite;
 }
 
 [data-theme="pastel"] .floating-emoji {
-    animation: floatUpPastel 20s linear infinite;
+    animation: floatUpPastel 18s linear infinite;
 }
 
 [data-theme="sunset"] .floating-emoji {
-    animation: floatUpSunset 20s linear infinite;
+    animation: floatUpSunset 18s linear infinite;
 }
 
 [data-theme="ocean"] .floating-emoji {
-    animation: floatUpOcean 20s linear infinite;
+    animation: floatUpOcean 18s linear infinite;
 }
 
 [data-theme="forest"] .floating-emoji {
-    animation: floatUpForest 20s linear infinite;
+    animation: floatUpForest 18s linear infinite;
 }
 
 [data-theme="purple"] .floating-emoji {
-    animation: floatUpPurple 20s linear infinite;
+    animation: floatUpPurple 18s linear infinite;
 }
 
 [data-theme="midnight"] .floating-emoji {
-    animation: floatUpMidnight 20s linear infinite;
+    animation: floatUpMidnight 18s linear infinite;
 }
 
 @keyframes floatUpDark {
